@@ -1,0 +1,24 @@
+
+.resume{
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .imgcontainer{
+        width: 700px;
+        height: 800px;
+        background-color: white;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+
+
+        img{  
+            padding-top: 20px;  
+            height: 97%;
+        }
+
+    }
+    
+}

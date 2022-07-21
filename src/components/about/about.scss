@@ -1,0 +1,137 @@
+.about{
+    background-color: rgb(247, 248, 211);
+    justify-content: center;
+    h1{
+        font-size: 35px;
+        text-align: center;
+        font-family: 'Cairo';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+    }
+    .top{
+        flex: 0.5;    
+        overflow: hidden;
+        .imgcontainer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 1s ease;
+        
+
+            img{
+                border-radius: 10px;
+                max-height: 40vh;
+                min-height: 200px;
+                margin-bottom: 16px !important;
+                box-sizing: border-box;
+                border: 2px white solid;
+                overflow: hidden;
+                box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+                cursor: pointer;
+
+            }
+        }
+        &:hover{
+            transform: scale(1.09);
+        }
+    }
+
+    .item1{
+        padding-left: 400px;
+        padding-right: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        p{
+            font-size: 20px;
+            font-family: 'Cairo';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;  
+        }
+    }
+
+    .item2{
+        padding-left: 400px;
+        padding-right: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        p{
+            font-size: 20px;
+            font-family: 'Cairo';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;  
+        }
+        a{
+            font-size: 20px;
+            font-family: 'Cairo';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;       
+        }
+    }
+    .item3{
+        padding-left: 400px;
+        padding-right: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        p{
+            font-size: 20px;
+            font-family: 'Cairo';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;  
+        }
+    }
+
+    .item4{
+        padding-left: 400px;
+        padding-right: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        p{
+            font-size: 20px;
+            font-family: 'Cairo';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;  
+        }
+        a{
+            font-size: 20px;
+            font-family: 'Cairo';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;       
+        }
+    }
+
+    .item5{
+        padding-left: 400px;
+        padding-right: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        p{
+            font-size: 20px;
+            font-family: 'Cairo';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;  
+        }
+        a{
+            font-size: 20px;
+            font-family: 'Cairo';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;       
+        }
+    }
+ 
+
+}
+
