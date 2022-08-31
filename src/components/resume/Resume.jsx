@@ -4,7 +4,7 @@ export default function Resume() {
   return (
     <div className= "resume" id="resume">
       <div className="imgcontainer"> 
-        <img src="assets/resumenew.png" alt="" />
+        <img src="assets/resumefinal.png" alt="" />
       </div>
     </div>
   )
